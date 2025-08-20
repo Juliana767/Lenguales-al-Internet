@@ -21,7 +21,7 @@
                 </select>
                 <LABEL FOR="tipo_perro"></LABEL>
                 <select name="tipo" id="tipo">
-                <option value="">Perro</option>
+                <option value="perro">Perro</option>
                 <option value="sen">Sencilla</option>
                 <option value="med">Mediana</option >
                 <option value="gra">Grande</option>
