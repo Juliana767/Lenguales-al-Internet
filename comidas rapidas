@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Juli fast food</title>
+        </head>
+        <body>
+            <!--esto es un comentario-->
+            <h1>Servicio de comida rapida Juli</h1>
+            <!--  -->
+            <h2>¿Que quieres?</h2>
+        
+ <form action = "/PEDIDO-COMIDA" METHOD="POST">
+
+              <LABEL FOR="tipo_salchipapa"></LABEL>
+                <select name="tipo" id="tipo" >
+                <option value="">Salchipapa</option>
+                <option value="sen">Sencilla</option>
+                <option value="med">Mediana</option >
+                <option value="gran">Grande</option>
+                <option value="fam"> Familiar </option>
+                </select>
+                <LABEL FOR="tipo_perro"></LABEL>
+                <select name="tipo" id="tipo">
+                <option value="">Perro</option>
+                <option value="sen">Sencilla</option>
+                <option value="med">Mediana</option >
+                <option value="gan">Grande</option>
+                </select>
+                 <LABEL FOR="tipo_hamburguesa"></LABEL>
+                <select name="tipo" id="tipo" >
+                <option value="ham">Hamburguesa</option>
+                <option value="sen">Sencilla</option>
+                <option value="med">Mediana</option >
+                <option value="gra">Grande</option>
+                <option value="extra">Extra Grande</option>
+                </select>
+
+
+
+                <LABEL FOR="nombre">Nombre</LABEL>
+                <input type="text" name="nombre" id= "Nombre" >
+                
+                <label for="apellido">Apellido</label>
+                <input type="text" name="Apellido" id="apellido "  >
+                <br>
+                <label for="celular">Numero celular</label>
+                <input type="text" name="celular" id= "celular">
+                <LABEL FOR="email">Correo</LABEL>
+                <input type="email" name="email" id= "Email" placeholder="ejemplo@gmail.com" required>
+             
+              
+ 
+                <label for="terminos">
+                <input type="checkbox" name="termnos" id="terminos" required>
+                Acepto los términos y condiciones </a>
+                </label>
+                <button type ="submit" value=" Enviar" id="btnrealizaarpedido">Realizar pedido</button>
+               
+ 
+ 
+            </form>
+        </body>
+        </html>
+ 
