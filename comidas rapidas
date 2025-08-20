@@ -16,7 +16,7 @@
                 <option value="">Salchipapa</option>
                 <option value="sen">Sencilla</option>
                 <option value="med">Mediana</option >
-                <option value="gran">Grande</option>
+                <option value="gra">Grande</option>
                 <option value="fam"> Familiar </option>
                 </select>
                 <LABEL FOR="tipo_perro"></LABEL>
@@ -24,7 +24,7 @@
                 <option value="">Perro</option>
                 <option value="sen">Sencilla</option>
                 <option value="med">Mediana</option >
-                <option value="gan">Grande</option>
+                <option value="gra">Grande</option>
                 </select>
                  <LABEL FOR="tipo_hamburguesa"></LABEL>
                 <select name="tipo" id="tipo" >
