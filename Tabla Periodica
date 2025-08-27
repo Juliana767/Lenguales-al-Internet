@@ -6,12 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>  Tabla Periódica  </title>
   <style>
-    table1 {
-      border-collapse: collapse;
-      width: 100%;
-    }
-
- 
     td {
       border: 1px solid #0a0909;
       width: 5.5%;
