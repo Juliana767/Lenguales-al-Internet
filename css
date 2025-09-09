@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #e91e63; 
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #f06292;
+}
+nav ul {
+  list-style: none;       
+  display: flex;         
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Introducción */
+.intro {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Tabla de noticias */
+.tabla-noticias {
+  padding: 15px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #f48fb1;
+  color: white;
+}
+tr:hover {
+  background-color: #ffe4ec;
+}
+
+/* Imagenes dentro de la tabla */
+table img {
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: auto;
+}
+
+/* Sección de tarjetas (cards) */
+.cards {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 250px)); 
+  gap: 20px;
+  justify-content: center;   
+  text-align: center;
+  max-width: 900px;          
+  margin: 0 auto;            
+}
+.cards h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+  height: 200px;       
+  object-fit: cover;   
+}
+.card p {
+  padding: 10px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
